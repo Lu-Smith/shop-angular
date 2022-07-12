@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ExampleShopComponent } from './example-shop/example-shop.component';
+import { GalleryLightboxComponent } from './gallery-lightbox/gallery-lightbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ExampleShopComponent
+    GalleryLightboxComponent
   ],
   imports: [
     BrowserModule

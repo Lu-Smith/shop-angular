@@ -85,3 +85,8 @@ footer a {
 footer a:hover {
     color: #ffebbb;
 }
+
+.products {
+    width: 100vw;
+    height: 100vh;
+}
