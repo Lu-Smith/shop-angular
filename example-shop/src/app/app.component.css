@@ -84,14 +84,13 @@ header li:hover {
 }
 
 header button {
-    background-color: #f39286;
-    border: 2px solid #fa5437;
-    border-radius: 15px;
-    padding: 0 15px;
-    color: #fff;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     transform: 200ms all ease-in-out;
+    border: none;
+    background: none;
+}
 
+header button img {
+    width: 60px;
 }
 
 header button:hover {
@@ -187,7 +186,7 @@ footer a:hover {
     }
     
     header {
-        padding: 20px;
+        padding: 0 20px;
     }
     
     header h1 {
@@ -197,13 +196,11 @@ footer a:hover {
     
     header li {
         padding: 12px;
-        font-size: 10px;
+        font-size: 12px;
     }
     
-    header button {
-        border: 2px solid #fa5437;
-        border-radius: 10px;
-        padding: 0 15px;
+    header button img{
+        width: 50px;
     }
     
     .promotions {
