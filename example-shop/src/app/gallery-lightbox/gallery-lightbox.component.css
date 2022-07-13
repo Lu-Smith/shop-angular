@@ -124,9 +124,9 @@
 .buy {
   display: block;
   margin: 0 auto;
-padding: 10px 25px;
-font-size: 20px;
-background-color: rgb(247, 39, 39);
+padding: 15px 25px;
+font-size: 18px;
+background-color: rgb(248, 66, 66);
 color: white;
 border-radius: 5px;
 margin-top: 10px;
@@ -135,6 +135,23 @@ margin-top: 10px;
 .buy:hover {
 padding: 11px 26px;
 opacity: 80%;
+}
+.product-label{
+  background-color: rgb(201, 193, 193);
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.produce-name {
+  font-size: 22px;
+  color: black;
+}
+
+.price {
+  font-size: 20px;
+  color: black;
+  
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -155,6 +172,10 @@ opacity: 80%;
   
   }
   .lightbox-img img {
+    width: 80%;
+  }
+
+  .product-label {
     width: 80%;
   }
 }
@@ -187,6 +208,18 @@ opacity: 80%;
 
   .lightbox-img img {
     width: 100%;
+  }
+
+  .buy {
+  padding: 10px 25px;
+  font-size: 16px;
+  width: 100%;
+  }
+
+  .product-label {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0;
   }
 }
 

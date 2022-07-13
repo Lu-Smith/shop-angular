@@ -23,7 +23,11 @@
             (@animation.done)="onAnimationEnd($event)"
             class="lightbox-img">
             <img [src]="currentLightboxImage.imageSrc" [alt]="currentLightboxImage.imageAlt">
-            <button class="buy">Buy</button>
+            <div class="product-label">
+            <div class="product-name">{{ currentLightboxImage.imageAlt }}</div>
+            <div class="price">{{ currentLightboxImage.imagePrice }}</div>
+        </div>
+            <button class="buy">ADD TO CART</button>
         </div>
     </div>
 </div>

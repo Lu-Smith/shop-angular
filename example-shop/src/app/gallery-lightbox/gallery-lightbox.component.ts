@@ -10,6 +10,7 @@ import {
 interface Item {
   imageSrc: string;
   imageAlt: string;
+  imagePrice: string;
 }
 
 @Component({
