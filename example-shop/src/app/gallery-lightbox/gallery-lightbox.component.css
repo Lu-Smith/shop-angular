@@ -126,9 +126,21 @@
           column-count: 2;
           width: 100%;
   }
-  .gallery-img img {
-    width: 100%;
+
+.gallery-img img {
+  max-width: 100%;
 }
+}
+
+@media screen and (max-width: 820px) {
+
+  .lightbox {
+    padding: 100px;
+  
+  }
+  .lightbox-img img {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -149,3 +161,16 @@
         width: 100%;
   }
 }
+
+@media screen and (max-width: 390px) {
+
+  .lightbox {
+    padding: 100px;
+  
+  }
+
+  .lightbox-img img {
+    width: 100%;
+  }
+}
+
