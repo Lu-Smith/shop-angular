@@ -121,6 +121,22 @@
   border-radius: .35rem;
 }
 
+.buy {
+  display: block;
+  margin: 0 auto;
+padding: 10px 25px;
+font-size: 20px;
+background-color: rgb(247, 39, 39);
+color: white;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.buy:hover {
+padding: 11px 26px;
+opacity: 80%;
+}
+
 @media screen and (max-width: 1024px) {
   .gallery-lightbox-container .gallery {
           column-count: 2;
