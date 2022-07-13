@@ -75,6 +75,7 @@ header ul {
 header li {
     padding: 15px;
     transform: 200ms all ease-in-out;
+    cursor: pointer;
 }
 
 header li:hover {
@@ -88,6 +89,8 @@ header button {
     padding: 0 15px;
     color: #fff;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transform: 200ms all ease-in-out;
+
 }
 
 header button:hover {
@@ -106,6 +109,8 @@ header button:hover {
     padding: 5px 70px;
     cursor: pointer;
     color: #fa5437;
+    transform: 200ms all ease-in-out;
+
 }
 
 .promotions li:hover {
@@ -118,6 +123,11 @@ header button:hover {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    cursor: pointer;
+}
+
+.banner:hover {
+    opacity: 80%;
 }
 
 footer {
@@ -148,6 +158,68 @@ footer a:hover {
     }
 
     .promotions {
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .navsale {
+        font-size: 15px;
+        line-height: 40px;
+        padding: 10px 20px;
+    }
+    
+    .sale {
+        font-weight: 600;
+    }
+
+    .track-order {
+        border-radius: 15px;
+        padding: 4px 15px;
+        font-size: 12px;
+    }
+
+    .my-account {
+        border-radius: 15px;
+        padding: 4px 15px;
+        font-size: 12px;
+    }
+    
+    header {
+        padding: 20px;
+    }
+    
+    header h1 {
+        display: none;
+    }
+    
+    
+    header li {
+        padding: 12px;
+        font-size: 10px;
+    }
+    
+    header button {
+        border: 2px solid #fa5437;
+        border-radius: 10px;
+        padding: 0 15px;
+    }
+    
+    .promotions {
+        line-height: 30px;
+    }
+
+    .promotions ul {
+        list-style: none;
+        padding: 5px 30px;
+    }
+    
+    .promotions li {
+        font-size: 12px;
+    }
+    
+    .banner {
+        padding: 20px 5px;
         font-size: 20px;
     }
   }
