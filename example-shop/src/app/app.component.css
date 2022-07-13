@@ -54,6 +54,7 @@ header {
     justify-content: space-between;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
+    background-color: white;
 }
 
 header h1 {
